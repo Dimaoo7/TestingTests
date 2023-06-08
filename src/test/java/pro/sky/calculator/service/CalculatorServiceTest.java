@@ -15,7 +15,6 @@ class CalculatorServiceTest {
 
     }
     @AfterEach
-    //@Disable <-- не работат
     void after() {
         System.out.println("Тут что то должно было быть");
     }
